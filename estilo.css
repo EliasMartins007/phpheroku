@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-body {
-  font-size: smaller;
-  color: #33f;
-}
-
 #h1_TituloPagina {
   position: absolute;
   left: 640px;
@@ -29,9 +24,14 @@ body {
 body {
   font-family: arial, helvetica, sans-serif;
   font-size: 18px;
-  background: #99ff90;
+  background: #e6e94d;
 }
 
+#bodyContato {
+  font-size: smaller;
+  color: rgbs(51, 255, 129);
+  background: #e6e94d;
+}
 #primeiroTitulo {
   color: red;
   position: absolute;
