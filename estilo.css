@@ -27,10 +27,9 @@ body {
   background: #e6e94d;
 }
 
-#bodyContato {
+.bodyContato {
   font-size: smaller;
-  color: rgbs(51, 255, 129);
-  background: #e6e94d;
+  background: #e94d67;
 }
 #primeiroTitulo {
   color: red;
@@ -270,11 +269,18 @@ a:hover {
   left: 15px;
 }
 
+/*
 footer {
   color: blue;
   text-align: center;
   position: relative;
   top: 1200px;
+}*/
+
+footer {
+  color: blue;
+  background-color: rgb(238, 199, 109);
+  text-align: center;
 }
 
 .titulo {
@@ -284,7 +290,7 @@ footer {
 .footer_ESCTECseparada {
   position: relative;
   text-aling: center;
-  color: blue;
+  color: rgb(68, 37, 12);
 }
 
 #footer_contato {
@@ -293,6 +299,7 @@ footer {
   position: relative;
   top: 240px;
 }
+
 #footer_pedido {
   color: blue;
   text-align: center;
