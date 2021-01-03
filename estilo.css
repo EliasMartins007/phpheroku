@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: smaller;
+  color: #33f;
+}
+
+#h1_TituloPagina {
+  position: absolute;
+  left: 640px;
+}
+
+.formcontatos {
+  position: relative;
+  top: 140px;
+  right: 405px;
+}
+
+.diferente {
+  position: relative;
+  top: 180px;
+  font-size: 55px;
+  color: gray;
+}
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 18px;
+  background: #99ff90;
+}
+
+#primeiroTitulo {
+  color: red;
+  position: absolute;
+  position: 200px;
+  top: 300px;
+}
+#riscoESCTECseparada {
+  position: relative;
+  margin-top: 180px;
+}
+
+h1 {
+  font-size: 25px;
+}
+h2 {
+  color: orange;
+  font-size: 50px;
+}
+
+.menu {
+  list-style: nome;
+  border: 1px solid #c0c0c0;
+  float: left;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+  border-right: 1px solid #c0c0c0;
+}
+
+.menu li a {
+  color: #33f;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.menu li a:hover {
+  background: #333;
+  color: #fff;
+  -moz-box-shadow: 0 3px 10px 0 #ccc;
+  -webkit-box-shadow: 0 3px 10px 0 #ccc;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li ul {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: #fff;
+  display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+
+.menu li ul li {
+  border: 1px solid #c0c0c0;
+  display: block;
+  width: 150px;
+}
+
+.limpar {
+  display: inline-block;
+}
+
+.Rprincipal {
+  position: relative;
+  text-aling: center;
+  color: blue;
+}
+a {
+  color: navy;
+}
+
+a:hover {
+  color: orange;
+}
+
+.submit {
+  color: blue;
+}
+
+#diferente {
+  position: absolute;
+  font-size: 30px;
+  color: #99ff99;
+}
+
+#diferente:hover {
+  color: orange;
+}
+
+#primeiro {
+  position: absolute;
+  left: 350px;
+  top: 480px;
+}
+#segundo {
+  position: absolute;
+  left: 850px;
+  top: 480px;
+}
+#terceiro {
+  position: absolute;
+  left: 850px;
+  top: 800px;
+}
+
+#quarto {
+  position: absolute;
+  left: 350px;
+  top: 800px;
+}
+
+#quinto {
+  position: absolute;
+  left: 890px;
+  top: 1200px;
+}
+#sexto {
+  position: absolute;
+  left: 350px;
+  top: 1200px;
+}
+
+#Mesa01 {
+  position: absolute;
+  left: 350px;
+  top: 250px;
+}
+
+#Mesa02 {
+  position: absolute;
+  left: 750px;
+  top: 250px;
+}
+
+#Mesa03 {
+  position: absolute;
+  left: 350px;
+  top: 650px;
+}
+
+#Mesa04 {
+  position: absolute;
+  left: 750px;
+  top: 650px;
+}
+
+#Mesa05 {
+  position: absolute;
+  left: 350px;
+  top: 1010px;
+}
+
+#Mesa06 {
+  position: absolute;
+  left: 750px;
+  top: 1010px;
+}
+
+#cadeira01 {
+  position: absolute;
+  left: 350px;
+  top: 250px;
+}
+
+#cadeira02 {
+  position: absolute;
+  left: 750px;
+  top: 250px;
+}
+#cadeira03 {
+  position: absolute;
+  left: 350px;
+  top: 600px;
+}
+
+#cadeira04 {
+  position: absolute;
+  left: 750px;
+  top: 600px;
+}
+
+#cadeira05 {
+  position: absolute;
+  left: 350px;
+  top: 990px;
+}
+#cadeira06 {
+  position: absolute;
+  left: 750px;
+  top: 990px;
+}
+#diversos01 {
+  position: absolute;
+  left: 350px;
+  top: 250px;
+}
+
+#diversos02 {
+  position: absolute;
+  left: 750px;
+  top: 250px;
+}
+#diversos03 {
+  position: absolute;
+  left: 350px;
+  top: 600px;
+}
+
+#diversos04 {
+  position: absolute;
+  left: 750px;
+  top: 600px;
+}
+
+#diversos05 {
+  position: absolute;
+  left: 350px;
+  top: 990px;
+}
+#diversos06 {
+  position: absolute;
+  left: 750px;
+  top: 990px;
+}
+
+#formpedido {
+  position: relative;
+  top: 110px;
+  left: 15px;
+}
+
+footer {
+  color: blue;
+  text-align: center;
+  position: relative;
+  top: 1200px;
+}
+
+.titulo {
+  color: blue;
+  font-size: 65px;
+}
+.footer_ESCTECseparada {
+  position: relative;
+  text-aling: center;
+  color: blue;
+}
+
+#footer_contato {
+  color: blue;
+  text-align: center;
+  position: relative;
+  top: 240px;
+}
+#footer_pedido {
+  color: blue;
+  text-align: center;
+  position: relative;
+  top: 130px;
+}
+
+#footer_cadeiras {
+  top: 1140px;
+}
+
+#footer_mesa {
+  top: 1100px;
+}
