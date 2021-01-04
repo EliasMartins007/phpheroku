@@ -8,12 +8,6 @@
   left: 640px;
 }
 
-.formcontatos {
-  position: relative;
-  top: 140px;
-  right: 405px;
-}
-
 .diferente {
   position: relative;
   top: 180px;
@@ -22,8 +16,9 @@
 }
 
 body {
-  font-family: arial, helvetica, sans-serif;
-  font-size: 18px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
   background: #e6e94d;
 }
 
@@ -289,28 +284,29 @@ footer {
 }
 .footer_ESCTECseparada {
   position: relative;
-  text-aling: center;
-  color: rgb(68, 37, 12);
-}
-
-#footer_contato {
-  color: blue;
-  text-align: center;
-  position: relative;
-  top: 240px;
+  /*text-aling: center;
+  color: rgb(68, 37, 12);*/
 }
 
 #footer_pedido {
   color: blue;
   text-align: center;
   position: relative;
-  top: 130px;
 }
 
-#footer_cadeiras {
-  top: 1140px;
+.post_content {
+  text-transform: capitalize;
+  text-align: justify;
 }
 
-#footer_mesa {
-  top: 1100px;
+.post {
+  padding: 15px;
+  border: 1px solid #505050;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#contato {
+  border: blue;
+  margin-top: 250px;
 }
