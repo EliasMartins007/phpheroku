@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilo.css">
+    <!--link rel="stylesheet" href="estilo.css"-->
+    <link rel="stylesheet" href="css/bulma.min.css">
     <title>Contato</title>
   </head>
   <body>
@@ -19,6 +20,9 @@
             <br>
             <br>
             <br>
+
+
+
             <form name="f1">        <!--inicio do formulario-->
                <p><label for="Nome">Nome</label> <input type="text" placeholder="ex:Fulano da silva">
                 <label for="Endereco">Endereço</label> <input type="text" placeholder="ex:Rua XYZ"> </p><label for="Cidade">Cidade</label><input type="text" placeholder="ex:Belo Horizonte"> UF<input type="text" placeholder="ex:MG" maxlength="2"></p>
@@ -26,15 +30,20 @@
                   
                
                 
-                <input type="submit" value="Enviar" class="submit">
-                 <input type="reset" value="limpar" class="submit"> </p>              
+                <!--input type="submit" value="Enviar" class="submit"-->
+                <div class="field is-grouped">
+                  <div class="control">
+                 <!--input type="submit" name="submit" value="submit" /-->
+                 <button class="button is-link is-meduim" >Enviar</button>
+                </div>
+                            
             </form>
          </section> 
          <div class="contato">
          <img src="IMG reiki/6739-REIKI-CAPA-1.jpg" alt="sessão de Reiki">
          </div>
          <hr>   
-         <footer id="footer_pedido">&copy2021 
+         <footer id="footer_pedido">&copy2021 TODOS OS DIREITO RESERVADOS 
                  <address>e-mail: teste@gmail.com 	</address>
             </footer>
         </div>
